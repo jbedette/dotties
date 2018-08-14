@@ -23,4 +23,4 @@
   smudge = git-lfs smudge %f
   required = true
 [include]
-	path = /Users/afaur/.afaur-gitconfig
+	path = /Users/jbedette/.jbedette-gitconfig

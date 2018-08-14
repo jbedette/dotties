@@ -5,7 +5,7 @@ let mapleader = " "
 let maplocalleader = "\\"
 
 syntax on
-colorscheme jellybeans
+colorscheme zellner
 
 highlight Normal guibg=black guifg=white
 
@@ -178,6 +178,8 @@ let g:vimclojure#HighlightBuiltins = 1
 let g:vimclojure#ParenRainbow = 1
 
 au BufReadPost *.js call FlowEnable()
+
+colo zellner
 
 " Plug 'wesQ3/vim-windowswap'
 " Swap windows using <leader>ww
